@@ -6,7 +6,7 @@ pruebas del servicio en angular:
 Export() {
 
     const requestUrl = 'https://localhost:44341/api/Excel/Export';
-    const fileName = 'report1-grapecity.xlsx';
+    const fileName = 'report-DevExpress.xlsx';
     fetch(requestUrl, {
       method: 'POST'
     })
